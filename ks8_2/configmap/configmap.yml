@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-secret
+  namespace: default 
+data:
+    name: eric
+    lastname: kemvou
+    title: devops
+    city: lubbock
+    state: texas
+    country: usa
+    color.good: purple
+    color.bad: yellow
+    allow.textmode: "true"
+    valette: maba
+    valette_armand: love
+    valette_son: Parker
